@@ -1,0 +1,113 @@
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-top: 30px;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #1abc9c;
+  transition: 0.3s;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05); /* pop out slightly */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* stronger shadow */
+}
+
+/* Weekly Plan List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffffff;
+  margin: 15px 0;
+  padding: 15px;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul li b {
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+/* Paragraph under plan */
+#why {
+  font-style: italic;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 600px;
+  color: #555;
+}
+
+/* Table Styling */
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th {
+  background: #3498db;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  width: 30%;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
