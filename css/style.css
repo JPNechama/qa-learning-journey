@@ -111,3 +111,63 @@ td {
 tr:last-child td {
   border-bottom: none;
 }
+/* --- Force the profile image to be small and left-aligned --- */
+#about {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#about .profile-pic {
+  max-width: 180px !important; /* force size */
+  width: 180px !important;
+  height: auto !important;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin: 0 !important;                 /* cancel global centering */
+  display: inline-block !important;     /* cancel global block */
+}
+/* Contact Table */
+table {
+  width: min(500px, 95%);
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1rem;
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+th {
+  background: #3498db;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td {
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Alternate row background */
+tr:nth-child(even) td {
+  background: #f9f9f9;
+}
+
+/* Remove border on last row */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* Hover effect for rows */
+tr:hover td {
+  background: #ecf6ff;
+}
